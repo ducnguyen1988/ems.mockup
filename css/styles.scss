@@ -1,0 +1,50 @@
+/***COLORS***/
+$dark: #a3a3a3;
+$orange: #ec774b;
+$red: #e16c6c;
+$purple: #c389ce;
+$black: #404548;
+$white: #ffffff;
+$white-border: #f1f1f1;
+
+$text-color-1: #a4a4a4;
+$text-color-2: #868585;
+
+
+/***GENERAL***/
+.navigation-container {
+  > :before {
+    content: "";
+    float: left;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%);
+  }
+
+  .navigation-section {
+    background-color: $white; 
+    width: 100%;
+    border-bottom: 1px solid $white-border ;
+    color: $dark;
+  }
+}
+
+
+/***OVERWRITE***/
+
+/***HOME***/
+
+/***COURSES***/
+.banner-img {
+  height: 315px;
+  background-image: url('../images/parallax-2.jpg');
+  background-position: center;
+}
+
+/***ABOUT US***/
+
+/***SERVICES***/
+
+/***NEWS***/
+
+/***CONTACT***/
