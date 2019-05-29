@@ -4,6 +4,7 @@ $orange: #ec774b;
 $red: #e16c6c;
 $purple: #c389ce;
 $black: #404548;
+$black2: #495052;
 $white: #ffffff;
 $white-border: #f1f1f1;
 
@@ -12,6 +13,11 @@ $text-color-2: #868585;
 
 
 /***GENERAL***/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/***NAVIGATION***/
 .navigation-container {
   > :before {
     content: "";
@@ -26,6 +32,25 @@ $text-color-2: #868585;
     width: 100%;
     border-bottom: 1px solid $white-border ;
     color: $dark;
+  }
+}
+.top-header {
+  font-size: 13px;
+  background-color: $black2;
+  color: $white;
+  a {
+    color: $white;
+  }
+}
+
+/***FOOTER***/
+footer {
+  background-color: $black;
+  color: $white;
+  font-size: 14px;
+  line-height: 27px;
+  .row {
+    padding: 15px;
   }
 }
 

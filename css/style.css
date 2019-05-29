@@ -1,5 +1,10 @@
 /***COLORS***/
 /***GENERAL***/
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/***NAVIGATION***/
 .navigation-container > :before {
   content: "";
   float: left;
@@ -12,6 +17,26 @@
   width: 100%;
   border-bottom: 1px solid #f1f1f1;
   color: #a3a3a3;
+}
+
+.top-header {
+  font-size: 13px;
+  background-color: #495052;
+  color: #ffffff;
+}
+.top-header a {
+  color: #ffffff;
+}
+
+/***FOOTER***/
+footer {
+  background-color: #404548;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 27px;
+}
+footer .row {
+  padding: 15px;
 }
 
 /***OVERWRITE***/
