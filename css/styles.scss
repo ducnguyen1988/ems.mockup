@@ -17,6 +17,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.p25-right {
+  padding-right: 25px;
+}
+
 /***NAVIGATION***/
 .navigation-container {
   > :before {
@@ -32,6 +36,16 @@ body {
     width: 100%;
     border-bottom: 1px solid $white-border ;
     color: $dark;
+    nav {
+      padding: 15px;
+      li {
+        padding: 8px;
+        a {
+          padding: 0px;
+          padding-top: 5px;
+        }
+      }
+    }
   }
 }
 .top-header {
@@ -44,20 +58,41 @@ body {
 }
 
 /***FOOTER***/
+.sub-footer {
+  background-color: $black2;
+  color: $white;
+  font-size: 14px;
+  .row {
+    padding: 35px 0px;
+  }
+}
+
 footer {
   background-color: $black;
   color: $white;
   font-size: 14px;
   line-height: 27px;
   .row {
-    padding: 15px;
+    padding: 15px 0px;
   }
 }
-
 
 /***OVERWRITE***/
 
 /***HOME***/
+.home-course-list {
+  padding: 25px;
+  img {
+    width: 100%;
+  }
+  .row {
+    padding: 15px;
+  }
+}
+
+.home-benefit {
+  background-color: $black2;
+}
 
 /***COURSES***/
 .banner-img {
