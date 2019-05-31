@@ -7,6 +7,9 @@ $black: #404548;
 $black2: #495052;
 $white: #ffffff;
 $white-border: #f1f1f1;
+$facebook: #3b5998;
+$youtube: #cd201f;
+$google: #dd4b39;
 
 $text-color-1: #a4a4a4;
 $text-color-2: #868585;
@@ -64,6 +67,54 @@ body {
   font-size: 14px;
   .row {
     padding: 35px 0px;
+  }
+
+  .elementor a {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+  }
+  .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+    -webkit-border-radius: 10%;
+    border-radius: 10%;
+  }
+  .elementor-social-icon {
+    font-size: 18px;
+  }
+  .elementor-animation-shrink {
+    transition-duration: .3s;
+    transition-property: transform;
+  }
+  .elementor-social-icon-facebook {
+      background-color: $facebook;
+  }
+  .elementor-social-icon-youtube {
+      background-color: $youtube;
+  }
+  .elementor-social-icon-google {
+      background-color: $google;
+  }
+  .elementor-social-icon {
+      text-align: center;
+      padding: .5em;
+      margin-right: 5px;
+      cursor: pointer;
+  }
+  .elementor-icon {
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: #818a91;
+    text-align: center;
+    border-radius: 10%;
+    i {
+      width: 1em;
+      height: 1em;
+      position: relative;
+      display: block;
+    }
   }
 }
 
